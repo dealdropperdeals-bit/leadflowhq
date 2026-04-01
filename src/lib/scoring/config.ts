@@ -1,0 +1,30 @@
+export const scoringConfig = {
+  websiteQuality: {
+    base: 10,
+    website: 18,
+    https: 12,
+    title: 10,
+    metaDescription: 10,
+    contactPage: 16,
+    clearCta: 14,
+    trustSignals: 12,
+    bookingForm: 8,
+  },
+  outreachPriority: {
+    missingWebsite: 26,
+    missingEmail: 18,
+    missingContactPage: 12,
+    weakCta: 10,
+    lowReviews: 14,
+    ratingGap: 8,
+    hasPhone: 8,
+    hasWebsiteButWeakSignals: 10,
+  },
+  leadScore: {
+    base: 18,
+    websiteQualityWeight: 0.32,
+    outreachPriorityWeight: 0.28,
+    completenessWeight: 0.2,
+    reputationWeight: 0.2,
+  },
+};
